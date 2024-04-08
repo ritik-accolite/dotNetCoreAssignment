@@ -1,0 +1,39 @@
+﻿@model MyNotes.ViewModel.NoteViewModel
+@{
+    ViewData["Title"] = "Create Note";
+}
+
+<div class="row">
+    <div class="col-8 mx-auto">
+        <div class="row d-flex align-items-center">
+            <div class="col-10">
+                <h1 class="mt-2">Create Note</h1>
+            </div>
+            <div class="col-2">
+                <a class="btn btn-primary" asp-controller="Note" asp-action="Index">Go Back</a>
+            </div>
+        </div>
+        <hr />
+        <form asp-action="Create" asp-controller="Note" method="post">
+            <div class="mb-2">
+                <label asp-for="Title"></label>
+                <input type="text" asp-for="Title" class="form-control" />
+                <span class="text-danger" asp-validation-for="Title"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Description"></label>
+                <textarea rows="7" asp-for="Description" class="form-control" ></textarea>
+                <span class="text-danger" asp-validation-for="Description"></span>
+            </div>
+            <div class="mb-3">
+                <div class="d-flex align-items-center justify-content-center gap-3">
+                <label>Choose Background Color</label>
+                <input type="color" asp-for="Color" value="#dc143c"/>
+                </div>
+            </div>
+            <div class="mb-3">
+                <button class="form-control btn btn-success" type="submit">Save</button>
+            </div>
+        </form>
+    </div>
+</div>

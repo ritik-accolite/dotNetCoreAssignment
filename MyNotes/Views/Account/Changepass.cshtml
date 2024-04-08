@@ -1,0 +1,31 @@
+﻿@model MyNotes.ViewModel.ChangepassViewModel
+@{
+    ViewData["Title"] = "Change Password";
+}
+
+<div class="row">
+    <div class="col-8 mx-auto">
+        <h1 class="mt-2">Change Password</h1>
+        <hr />
+        <form asp-action="Changepass" asp-controller="Account" method="post">
+            <div class="mb-3">
+                <label asp-for="OldPassword"></label>
+                <input type="password" asp-for="OldPassword" class="form-control" />
+                <span class="text-danger" asp-validation-for="OldPassword"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="NewPassword"></label>
+                <input type="password" asp-for="NewPassword" class="form-control" />
+                <span class="text-danger" asp-validation-for="NewPassword"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="ConfirmNewPassword"></label>
+                <input type="password" asp-for="ConfirmNewPassword" class="form-control" />
+                <span class="text-danger" asp-validation-for="ConfirmNewPassword"></span>
+            </div>
+            <div class="mb-3">
+                <input class="form-control btn btn-success" value="Register" type="submit" />
+            </div>
+        </form>
+    </div>
+</div>
