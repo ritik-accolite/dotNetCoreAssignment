@@ -70,8 +70,7 @@
               "RelativeToolTip": "MyNotes\\Views\\Account\\Changepass.cshtml",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-15T07:26:05.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-15T07:26:05.054Z"
             },
             {
               "$type": "Document",
@@ -81,7 +80,7 @@
               "RelativeDocumentMoniker": "MyNotes\\Program.cs",
               "ToolTip": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Program.cs",
               "RelativeToolTip": "MyNotes\\Program.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwA8AAAAmAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-15T06:11:14.386Z",
               "EditorCaption": ""
@@ -96,8 +95,7 @@
               "RelativeToolTip": "MyNotes\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-15T04:02:31.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-15T04:02:31.782Z"
             },
             {
               "$type": "Document",
@@ -109,8 +107,7 @@
               "RelativeToolTip": "MyNotes\\Views\\Note\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-15T04:01:41.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-15T04:01:41.281Z"
             },
             {
               "$type": "Document",
@@ -122,8 +119,7 @@
               "RelativeToolTip": "MyNotes\\Views\\Note\\Edit.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-15T03:58:07.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-15T03:58:07.739Z"
             },
             {
               "$type": "Document",
@@ -135,8 +131,7 @@
               "RelativeToolTip": "MyNotes\\Views\\Note\\Create.cshtml",
               "ViewState": "AQIAABUAAAAAAAAAAIBJwAcAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-15T03:57:21.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-15T03:57:21.627Z"
             },
             {
               "$type": "Document",
@@ -148,8 +143,7 @@
               "RelativeToolTip": "MyNotes\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAACcAAAAAAAAAAIBJwBIAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-11T12:23:29.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T12:23:29.299Z"
             },
             {
               "$type": "Document",
@@ -161,8 +155,7 @@
               "RelativeToolTip": "MyNotes\\Views\\Account\\Register.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-11T11:57:25.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T11:57:25.386Z"
             },
             {
               "$type": "Document",
@@ -174,8 +167,7 @@
               "RelativeToolTip": "MyNotes\\Views\\Account\\Login.cshtml",
               "ViewState": "AQIAAAkAAAAAAAAAAIBJwBwAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-11T11:43:28.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T11:43:28.038Z"
             },
             {
               "$type": "Document",
@@ -187,8 +179,7 @@
               "RelativeToolTip": "MyNotes\\Controllers\\AccountController.cs",
               "ViewState": "AQIAAGsAAAAAAAAAAAAuwHkAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T10:36:56.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T10:36:56.924Z"
             },
             {
               "$type": "Document",
@@ -200,8 +191,7 @@
               "RelativeToolTip": "MyNotes\\ViewModel\\RegisterViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T10:30:03.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T10:30:03.737Z"
             },
             {
               "$type": "Document",
@@ -213,8 +203,7 @@
               "RelativeToolTip": "MyNotes\\ViewModel\\ChangepassViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T10:29:59.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T10:29:59.631Z"
             }
           ]
         }
