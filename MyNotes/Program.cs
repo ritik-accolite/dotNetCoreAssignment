@@ -13,9 +13,13 @@ namespace MyNotes
 
             // Add services to the container.
 
-            // Connection string for the sql Server
+            // Using InMemory database
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+            options.UseInMemoryDatabase("MyInMemoryDatabase"));
+
+            // Connection string for the sql Server (Uncomment to use Sql Sever)
+            //builder.Services.AddDbContext<ApplicationDbContext>(options =>
+            //options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
             builder.Services.AddDefaultIdentity<User>(options => options.SignIn.RequireConfirmedAccount = false).
