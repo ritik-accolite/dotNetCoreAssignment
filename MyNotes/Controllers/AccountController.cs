@@ -66,36 +66,39 @@ namespace MyNotes.Controllers
         [HttpPost]
         public async Task<IActionResult> Changepass(ChangepassViewModel model)
         {
-            var userId = _userManager.GetUserId(HttpContext.User);
-            var user = await _userManager.FindByIdAsync(userId);
-
-            if (user != null)
+            if (ModelState.IsValid)
             {
-                var result = await _userManager.ChangePasswordAsync(user, model.OldPassword, model.NewPassword);
+                var userId = _userManager.GetUserId(HttpContext.User);
+                var user = await _userManager.FindByIdAsync(userId);
 
-                if (result.Succeeded)
+                if (user != null)
                 {
-                    // Set success message in TempData
-                    TempData["SuccessMessage"] = "Your password has been successfully changed.";
+                    var result = await _userManager.ChangePasswordAsync(user, model.OldPassword, model.NewPassword);
 
-                    return RedirectToAction(nameof(Index), "Note");
+                    if (result.Succeeded)
+                    {
+                        // Set success message in TempData
+                        TempData["SuccessMessage"] = "Your password has been successfully changed.";
+
+                        return RedirectToAction(nameof(Index), "Note");
+                    }
+                    else
+                    {
+                        // Password change failed, handle the error
+                        foreach (var error in result.Errors)
+                        {
+                            ModelState.AddModelError(string.Empty, error.Description);
+                        }
+                    }
                 }
                 else
                 {
-                    // Password change failed, handle the error
-                    foreach (var error in result.Errors)
-                    {
-                        ModelState.AddModelError(string.Empty, error.Description);
-                    }
+                    // User not found, handle the error
+                    ModelState.AddModelError(string.Empty, "User not found.");
                 }
             }
-            else
-            {
-                // User not found, handle the error
-                ModelState.AddModelError(string.Empty, "User not found.");
-            }
-
             // If we reach this point, there was an error, return the view with the model
+
             return View(model);
         }
 
@@ -151,26 +154,29 @@ namespace MyNotes.Controllers
         [HttpPost]
         public async Task<IActionResult> ChangeEmail(ChangeEmailViewModel model)
         {
-            var user = await _userManager.GetUserAsync(User);
-
-            var email = await _userManager.GetEmailAsync(user);
-            if (model.EmailConfirmed != email)
+            if (ModelState.IsValid)
             {
-                user.Email = model.EmailConfirmed;
-                var setUserNameResult = await _userManager.SetUserNameAsync(user, user.Email);
-                if (!setUserNameResult.Succeeded)
-                {   
-                    // email not changed
-                    return RedirectToAction(nameof(Index), "Home");
-                }
+                var user = await _userManager.GetUserAsync(User);
 
-                await _signInManager.RefreshSignInAsync(user);
-                TempData["EmailChanged"] = "Your Email has been successfully changed";
-                //email changed
-                return RedirectToAction(nameof(Index), "Note");
+                var email = await _userManager.GetEmailAsync(user);
+                if (model.EmailConfirmed != email)
+                {
+                    user.Email = model.EmailConfirmed;
+                    var setUserNameResult = await _userManager.SetUserNameAsync(user, user.Email);
+                    if (!setUserNameResult.Succeeded)
+                    {
+                        // email not changed
+                        return RedirectToAction(nameof(Index), "Home");
+                    }
+
+                    await _signInManager.RefreshSignInAsync(user);
+                    TempData["EmailChanged"] = "Your Email has been successfully changed";
+                    //email changed
+                    return RedirectToAction(nameof(Index), "Note");
+                }
             }
             // not changed
-            return RedirectToAction(nameof(Index), "Home");
+            return View(model);
         }
     }
 
