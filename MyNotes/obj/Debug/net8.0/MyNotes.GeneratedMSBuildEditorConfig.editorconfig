@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ritik.k_7767\Desktop\Assignments\dot net web\MyNotes\MyNotes
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/ritik.k_7767/Desktop/Assignments/dot net web/MyNotes/MyNotes/Views/Account/ChangeEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGFuZ2VFbWFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ritik.k_7767/Desktop/Assignments/dot net web/MyNotes/MyNotes/Views/Account/Changepass.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGFuZ2VwYXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

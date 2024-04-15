@@ -1,0 +1,27 @@
+﻿@model MyNotes.ViewModel.ChangeEmailViewModel
+@{
+    ViewData["Title"] = "Change Email";
+}
+
+<div class="row">
+    <div class="col-8 mx-auto">
+        <h1 class="mt-2">Change Email</h1>
+        <hr />
+        <form asp-action="ChangeEmail" asp-controller="Account" method="post">
+            <div class="mb-3">
+                <label asp-for="Email"></label>
+                <input type="email" asp-for="Email" class="form-control" />
+                <span class="text-danger" asp-validation-for="Email"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="EmailConfirmed"></label>
+                <input type="email" asp-for="EmailConfirmed" class="form-control" />
+                <span class="text-danger" asp-validation-for="EmailConfirmed"></span>
+            </div>
+
+            <div class="mb-3">
+                <input class="form-control btn btn-success" value="Confirm" type="submit" />
+            </div>
+        </form>
+    </div>
+</div>

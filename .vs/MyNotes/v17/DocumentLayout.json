@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|c:\\users\\ritik.k_7767\\desktop\\assignments\\dot net web\\mynotes\\mynotes\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|c:\\users\\ritik.k_7767\\desktop\\assignments\\dot net web\\mynotes\\mynotes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|c:\\users\\ritik.k_7767\\desktop\\assignments\\dot net web\\mynotes\\mynotes\\controllers\\notecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\controllers\\notecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|c:\\users\\ritik.k_7767\\desktop\\assignments\\dot net web\\mynotes\\mynotes\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|c:\\users\\ritik.k_7767\\desktop\\assignments\\dot net web\\mynotes\\mynotes\\viewmodel\\noteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\viewmodel\\noteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|c:\\users\\ritik.k_7767\\desktop\\assignments\\dot net web\\mynotes\\mynotes\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|c:\\users\\ritik.k_7767\\desktop\\assignments\\dot net web\\mynotes\\mynotes\\views\\account\\changepass.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\views\\account\\changepass.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|c:\\users\\ritik.k_7767\\desktop\\assignments\\dot net web\\mynotes\\mynotes\\views\\note\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\views\\note\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|c:\\users\\ritik.k_7767\\desktop\\assignments\\dot net web\\mynotes\\mynotes\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|c:\\users\\ritik.k_7767\\desktop\\assignments\\dot net web\\mynotes\\mynotes\\views\\note\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\views\\note\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|c:\\users\\ritik.k_7767\\desktop\\assignments\\dot net web\\mynotes\\mynotes\\views\\note\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\views\\note\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|c:\\users\\ritik.k_7767\\desktop\\assignments\\dot net web\\mynotes\\mynotes\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|c:\\users\\ritik.k_7767\\desktop\\assignments\\dot net web\\mynotes\\mynotes\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|c:\\users\\ritik.k_7767\\desktop\\assignments\\dot net web\\mynotes\\mynotes\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|c:\\users\\ritik.k_7767\\desktop\\assignments\\dot net web\\mynotes\\mynotes\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|c:\\users\\ritik.k_7767\\desktop\\assignments\\dot net web\\mynotes\\mynotes\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|c:\\users\\ritik.k_7767\\desktop\\assignments\\dot net web\\mynotes\\mynotes\\viewmodel\\changepassviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D668B1C8-4BF5-4B2B-8CDA-26210FB0289E}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\viewmodel\\changepassviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,98 +54,146 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NoteController.cs",
-              "DocumentMoniker": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Controllers\\NoteController.cs",
-              "RelativeDocumentMoniker": "MyNotes\\Controllers\\NoteController.cs",
-              "ToolTip": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Controllers\\NoteController.cs",
-              "RelativeToolTip": "MyNotes\\Controllers\\NoteController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAA5wDEAAAAYAAAA",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Program.cs",
+              "RelativeDocumentMoniker": "MyNotes\\Program.cs",
+              "ToolTip": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Program.cs",
+              "RelativeToolTip": "MyNotes\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T07:53:06.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "MyNotes\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "MyNotes\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T07:44:08.824Z",
+              "WhenOpened": "2024-04-15T06:11:14.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "NoteViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\ViewModel\\NoteViewModel.cs",
-              "RelativeDocumentMoniker": "MyNotes\\ViewModel\\NoteViewModel.cs",
-              "ToolTip": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\ViewModel\\NoteViewModel.cs",
-              "RelativeToolTip": "MyNotes\\ViewModel\\NoteViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T07:44:03.236Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyNotes\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MyNotes\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T04:02:31.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Changepass.cshtml",
-              "DocumentMoniker": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Views\\Account\\Changepass.cshtml",
-              "RelativeDocumentMoniker": "MyNotes\\Views\\Account\\Changepass.cshtml",
-              "ToolTip": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Views\\Account\\Changepass.cshtml",
-              "RelativeToolTip": "MyNotes\\Views\\Account\\Changepass.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAA3AAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Views\\Note\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyNotes\\Views\\Note\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Views\\Note\\Index.cshtml",
+              "RelativeToolTip": "MyNotes\\Views\\Note\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-08T07:32:21.705Z",
+              "WhenOpened": "2024-04-15T04:01:41.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "MyNotes\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "MyNotes\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T09:33:09.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MyNotes\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MyNotes\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACgAAAAkAAAA",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Views\\Note\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MyNotes\\Views\\Note\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Views\\Note\\Edit.cshtml",
+              "RelativeToolTip": "MyNotes\\Views\\Note\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-08T07:03:34.951Z",
+              "WhenOpened": "2024-04-15T03:58:07.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Views\\Note\\Create.cshtml",
+              "RelativeDocumentMoniker": "MyNotes\\Views\\Note\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Views\\Note\\Create.cshtml",
+              "RelativeToolTip": "MyNotes\\Views\\Note\\Create.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T03:57:21.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MyNotes\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MyNotes\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAABIAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T12:23:29.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "MyNotes\\Views\\Account\\Register.cshtml",
               "ToolTip": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Views\\Account\\Register.cshtml",
               "RelativeToolTip": "MyNotes\\Views\\Account\\Register.cshtml",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwC8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-08T07:06:59.788Z",
+              "WhenOpened": "2024-04-11T11:57:25.386Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MyNotes\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "MyNotes\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T11:43:28.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MyNotes\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MyNotes\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAuwHkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T10:36:56.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\ViewModel\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "MyNotes\\ViewModel\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\ViewModel\\RegisterViewModel.cs",
+              "RelativeToolTip": "MyNotes\\ViewModel\\RegisterViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T10:30:03.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChangepassViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\ViewModel\\ChangepassViewModel.cs",
+              "RelativeDocumentMoniker": "MyNotes\\ViewModel\\ChangepassViewModel.cs",
+              "ToolTip": "C:\\Users\\ritik.k_7767\\Desktop\\Assignments\\dot net web\\MyNotes\\MyNotes\\ViewModel\\ChangepassViewModel.cs",
+              "RelativeToolTip": "MyNotes\\ViewModel\\ChangepassViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T10:29:59.631Z"
             }
           ]
         }

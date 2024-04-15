@@ -1,16 +1,28 @@
 ﻿@model List<Note>
 
 @{
-    ViewData["Title"] = "List of Notes";
+    ViewData["Title"] = "List of Profiles";
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div id="successMessage" class="alert alert-success" role="alert">
+        @TempData["SuccessMessage"]
+    </div>
+}
+@if (TempData["EmailChanged"] != null)
+{
+    <div id="successMessage" class="alert alert-success" role="alert">
+        @TempData["EmailChanged"]
+    </div>
 }
 <div class="row">
     <div class="col-12 mx-auto">
         <div class="row d-flex align-items-center">
             <div class="col-10">
-        <h1 class="mt-2">List of Notes</h1>
+        <h1 class="mt-2">List of Social Profiles</h1>
             </div>
             <div class="col-2">
-                <a class="btn btn-primary" asp-controller="Note" asp-action="Create">Create Note</a>
+                <a class="btn btn-primary" asp-controller="Note" asp-action="Create">Create Social Profile</a>
             </div>
         </div>
         <hr />
@@ -51,3 +63,14 @@
         color:white;
     }
 </style>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var alertMessage = document.getElementById('successMessage');
+        if (alertMessage) {
+            // Set a timeout to hide the alert message after 5 seconds
+            setTimeout(function () {
+                alertMessage.style.display = 'none';
+            }, 5000);
+        }
+    });
+</script>

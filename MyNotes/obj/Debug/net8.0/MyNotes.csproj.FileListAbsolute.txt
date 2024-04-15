@@ -260,3 +260,4 @@ C:\Users\ritik.k_7767\Desktop\Assignments\dot net web\MyNotes\MyNotes\bin\Debug\
 C:\Users\ritik.k_7767\Desktop\Assignments\dot net web\MyNotes\MyNotes\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\ritik.k_7767\Desktop\Assignments\dot net web\MyNotes\MyNotes\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\ritik.k_7767\Desktop\Assignments\dot net web\MyNotes\MyNotes\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\ritik.k_7767\Desktop\Assignments\dot net web\MyNotes\MyNotes\obj\Debug\net8.0\MyNotes.sourcelink.json

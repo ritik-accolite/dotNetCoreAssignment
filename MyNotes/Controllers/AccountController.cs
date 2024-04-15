@@ -1,8 +1,11 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Shared;
 using MyNotes.Models;
 using MyNotes.ViewModel;
+using System.ComponentModel.DataAnnotations;
 using System.Drawing.Printing;
+using System.Text.RegularExpressions;
 
 namespace MyNotes.Controllers
 {
@@ -41,8 +44,19 @@ namespace MyNotes.Controllers
                     return RedirectToAction(nameof(Index), "Note");
                 }
         }
-        return View(model);
+        if (!IsPasswordValid(model.Password))
+            {
+                ModelState.AddModelError(nameof(model.Password), "Please enter a valid password (with at least one uppercase letter, one lowercase letter, one special character and one digit)");
+                return View(model);
+            }
+            return View(model);
     }
+        private bool IsPasswordValid(string password)
+        {
+            // Regular expression to match passwords with at least one uppercase letter, one lowercase letter, and one digit
+            string pattern = @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@!#$%^&*()-_+=]).{8,}$";
+            return Regex.IsMatch(password, pattern);
+        }
 
         public IActionResult Changepass()
         {
@@ -61,7 +75,8 @@ namespace MyNotes.Controllers
 
                 if (result.Succeeded)
                 {
-                    //return View();
+                    // Set success message in TempData
+                    TempData["SuccessMessage"] = "Your password has been successfully changed.";
 
                     return RedirectToAction(nameof(Index), "Note");
                 }
@@ -112,6 +127,12 @@ namespace MyNotes.Controllers
                         return LocalRedirect(returnUrl);
                     }
                 }
+                else
+                {
+                    ModelState.AddModelError(nameof(model.Password), "Please enter a valid password.");
+                    return View(model);
+                
+                }
             }
             return View(model);
         }
@@ -122,10 +143,37 @@ namespace MyNotes.Controllers
             return RedirectToAction(nameof(Index), "Home");
         }
 
+        public IActionResult ChangeEmail()
+        {
+            return View();
+        }
 
+        [HttpPost]
+        public async Task<IActionResult> ChangeEmail(ChangeEmailViewModel model)
+        {
+            var user = await _userManager.GetUserAsync(User);
 
+            var email = await _userManager.GetEmailAsync(user);
+            if (model.EmailConfirmed != email)
+            {
+                user.Email = model.EmailConfirmed;
+                var setUserNameResult = await _userManager.SetUserNameAsync(user, user.Email);
+                if (!setUserNameResult.Succeeded)
+                {   
+                    // email not changed
+                    return RedirectToAction(nameof(Index), "Home");
+                }
 
+                await _signInManager.RefreshSignInAsync(user);
+                TempData["EmailChanged"] = "Your Email has been successfully changed";
+                //email changed
+                return RedirectToAction(nameof(Index), "Note");
+            }
+            // not changed
+            return RedirectToAction(nameof(Index), "Home");
+        }
     }
 
-
 }
+
+
